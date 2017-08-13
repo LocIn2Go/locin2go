@@ -1,0 +1,147 @@
+﻿Build started 8/13/2017 4:26:09 PM.
+     1>Project "C:\Users\User\documents\visual studio 2013\Projects\LocIn2Go\LocIn2Go\LocIn2Go.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MathematicsModule\NonlinearNonquadratic4x3SistemSolver.cpp UIModule\GraphicElementsPreparation.cpp UIModule\DisplayDriver.cpp SensoryDataRetrievalModule\GPSSensoryData.cpp LocIn2Go.cpp MainModule\Loc2Go.cpp MathematicsModule\CalculateAbsolutePosition.cpp MathematicsModule\CalculateRelativePosition.cpp SensoryDataRetrievalModule\DW1000SensoryData.cpp SensoryDataRetrievalModule\IMUSensoryData.cpp stdafx.cpp UtilitiesModule\SphericalCoordinate.cpp UtilitiesModule\EuclidianCoordinate.cpp UtilitiesModule\GeometricalUtils.cpp UtilitiesModule\GPSCoordinate.cpp UtilitiesModule\MathUtils.cpp
+         MathUtils.cpp
+         GPSCoordinate.cpp
+         GeometricalUtils.cpp
+         EuclidianCoordinate.cpp
+         SphericalCoordinate.cpp
+         stdafx.cpp
+         IMUSensoryData.cpp
+         DW1000SensoryData.cpp
+         CalculateRelativePosition.cpp
+         CalculateAbsolutePosition.cpp
+         Loc2Go.cpp
+         LocIn2Go.cpp
+         GPSSensoryData.cpp
+         DisplayDriver.cpp
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.h(123): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.h(123): error C2143: syntax error : missing ',' before '*'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.h(126): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.h(126): error C2143: syntax error : missing ',' before '*'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.h(159): error C2143: syntax error : missing ';' before '*'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.h(159): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(87): error C2065: 'gfxFont' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(738): error C2065: 'gfxFont' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(750): error C2065: 'font' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(779): error C2065: 'gfxFont' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(779): error C2227: left of '->first' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(780): error C2065: 'GFXglyph' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(780): error C2065: 'glyph' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(780): error C2059: syntax error : ')'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(781): error C2065: 'gfxFont' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(781): error C2227: left of '->bitmap' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(783): error C2065: 'glyph' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(783): error C2227: left of '->bitmapOffset' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(784): error C2065: 'glyph' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(784): error C2227: left of '->width' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(785): error C2065: 'glyph' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(785): error C2227: left of '->height' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(786): error C2065: 'glyph' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(786): error C2227: left of '->xOffset' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(787): error C2065: 'glyph' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(787): error C2227: left of '->yOffset' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(842): error C2065: 'gfxFont' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(863): error C2065: 'gfxFont' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(863): error C2227: left of '->yAdvance' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(866): error C2065: 'gfxFont' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(866): error C2227: left of '->first' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(867): error C2065: 'gfxFont' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(867): error C2227: left of '->last' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(868): error C2065: 'GFXglyph' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(868): error C2065: 'glyph' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(868): error C2059: syntax error : ')'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(870): error C2065: 'glyph' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(870): error C2227: left of '->width' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(871): error C2065: 'glyph' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(871): error C2227: left of '->height' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(873): error C2065: 'glyph' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(873): error C2227: left of '->xOffset' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(877): error C2065: 'gfxFont' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(877): error C2227: left of '->yAdvance' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(881): error C2065: 'glyph' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(881): error C2227: left of '->xAdvance' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(954): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(954): error C2143: syntax error : missing ',' before '*'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(955): error C2065: 'f' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(956): error C2065: 'gfxFont' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(962): error C2065: 'gfxFont' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(967): error C2065: 'gfxFont' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(967): error C2059: syntax error : ')'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(975): error C2065: 'gfxFont' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(979): error C2065: 'gfxFont' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(979): error C2227: left of '->yAdvance' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(982): error C2065: 'gfxFont' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(982): error C2227: left of '->first' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(983): error C2065: 'gfxFont' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(983): error C2227: left of '->last' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(985): error C2065: 'GFXglyph' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(985): error C2065: 'glyph' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(985): error C2059: syntax error : ')'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(987): error C2065: 'glyph' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(987): error C2227: left of '->width' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(988): error C2065: 'glyph' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(988): error C2227: left of '->height' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(989): error C2065: 'glyph' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(989): error C2227: left of '->xAdvance' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(990): error C2065: 'glyph' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(990): error C2227: left of '->xOffset' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(991): error C2065: 'glyph' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(991): error C2227: left of '->yOffset' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(994): error C2065: 'gfxFont' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(994): error C2227: left of '->yAdvance' must point to class/struct/union/generic type
+                 type is 'unknown-type'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(1058): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(1058): error C2143: syntax error : missing ',' before '*'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(1060): error C2065: 'str' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(1062): error C2065: 'x1' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(1062): error C2065: 'x' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(1063): error C2065: 'y1' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(1063): error C2065: 'y' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(1064): error C2065: 'w' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(1064): error C2065: 'h' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(1069): error C2065: 'x' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(1069): error C2065: 'y' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(1072): error C2065: 'x1' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(1073): error C2065: 'w' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(1076): error C2065: 'y1' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(1077): error C2065: 'h' : undeclared identifier
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(1152): error C2039: 'print' : is not a member of 'DisplayDriver'
+                 c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.h(32) : see declaration of 'DisplayDriver'
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\uimodule\displaydriver.cpp(1287): warning C4244: '=' : conversion from 'unsigned short' to 'unsigned char', possible loss of data
+         GraphicElementsPreparation.cpp
+         NonlinearNonquadratic4x3SistemSolver.cpp
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\mathematicsmodule\nonlinearnonquadratic4x3sistemsolver.cpp(80): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\mathematicsmodule\nonlinearnonquadratic4x3sistemsolver.cpp(320): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\mathematicsmodule\nonlinearnonquadratic4x3sistemsolver.cpp(325): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\visual studio 2013\projects\locin2go\locin2go\mathematicsmodule\nonlinearnonquadratic4x3sistemsolver.cpp(327): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         Generating Code...
+     1>Done Building Project "C:\Users\User\documents\visual studio 2013\Projects\LocIn2Go\LocIn2Go\LocIn2Go.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:28.82

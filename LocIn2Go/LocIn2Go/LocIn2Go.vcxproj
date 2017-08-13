@@ -79,8 +79,10 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="UIModule\Font.h" />
+    <ClInclude Include="MathematicsModule\NonlinearNonquadratic4x3SistemSolver.h" />
     <ClInclude Include="UIModule\GraphicElementsPreparation.h" />
-    <ClInclude Include="UIModule\ScreenDraw.h" />
+    <ClInclude Include="UIModule\DisplayDriver.h" />
     <ClInclude Include="SensoryDataRetrievalModule\GPSSensoryData.h" />
     <ClInclude Include="MathematicsModule\CalculateAbsolutePosition.h" />
     <ClInclude Include="MathematicsModule\CalculateRelativePosition.h" />
@@ -89,11 +91,15 @@
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="UtilitiesModule\EuclidianCoordinate.h" />
+    <ClInclude Include="UtilitiesModule\GeometricalUtils.h" />
     <ClInclude Include="UtilitiesModule\GPSCoordinate.h" />
+    <ClInclude Include="UtilitiesModule\MathUtils.h" />
+    <ClInclude Include="UtilitiesModule\SphericalCoordinate.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="MathematicsModule\NonlinearNonquadratic4x3SistemSolver.cpp" />
     <ClCompile Include="UIModule\GraphicElementsPreparation.cpp" />
-    <ClCompile Include="UIModule\ScreenDraw.cpp" />
+    <ClCompile Include="UIModule\DisplayDriver.cpp" />
     <ClCompile Include="SensoryDataRetrievalModule\GPSSensoryData.cpp" />
     <ClCompile Include="LocIn2Go.cpp" />
     <ClCompile Include="MainModule\Loc2Go.cpp" />
@@ -102,8 +108,11 @@
     <ClCompile Include="SensoryDataRetrievalModule\DW1000SensoryData.cpp" />
     <ClCompile Include="SensoryDataRetrievalModule\IMUSensoryData.cpp" />
     <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="UtilitiesModule\SphericalCoordinate.cpp" />
     <ClCompile Include="UtilitiesModule\EuclidianCoordinate.cpp" />
+    <ClCompile Include="UtilitiesModule\GeometricalUtils.cpp" />
     <ClCompile Include="UtilitiesModule\GPSCoordinate.cpp" />
+    <ClCompile Include="UtilitiesModule\MathUtils.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
